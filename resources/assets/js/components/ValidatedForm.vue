@@ -12,10 +12,12 @@ import Form from 'form-backend-validation';
 
 export default {
     data() {
-        form: new Form({
-            name: '',
-            description: '',
-        })
+        return {
+            form: new Form({
+                name: '',
+                description: '',
+            })
+        }
     },
 
     props: ['method', 'action'],
