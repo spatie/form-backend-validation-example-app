@@ -15,6 +15,6 @@
     "vue": "^2.0.1"
   },
   "dependencies": {
-    "form-backend-validation": "^0.0.3"
+    "form-backend-validation": "^0.0.4"
   }
 }

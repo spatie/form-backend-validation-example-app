@@ -6,7 +6,9 @@ export default {
             form: new Form({
                 name: '',
                 description: '',
-            })
+            }),
+            message: '',
+            messageClass: '',
         }
     },
 
@@ -15,7 +17,22 @@ export default {
     methods: {
         onSubmit() {
             this.form[this.method](this.action)
-                .then(response => alert('All ok'));
-        }
+                .then(response => this.displaySuccessMessage('Your project was created'))
+                .catch(response => this.displayErrorMessage('Your project was not created'));
+        },
+
+        displaySuccessMessage(message) {
+            this.messageClass = 'success';
+            this.message = message;
+        },
+
+        displayErrorMessage(message) {
+            this.messageClass = 'error';
+            this.message = message;
+        },
+
+        clearMessage() {
+            this.message = '';
+        },
     }
 };
