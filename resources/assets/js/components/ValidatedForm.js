@@ -1,13 +1,3 @@
-<template>
-    <form @submit.prevent="onSubmit"
-          @keydown="form.errors.clear($event.target.name)"
-          action="action"
-          method="method">
-        <slot></slot>
-    </form>
-</template>
-
-<script>
 import Form from 'form-backend-validation';
 
 export default {
@@ -24,10 +14,8 @@ export default {
 
     methods: {
         onSubmit() {
-            this.form.post('/projects/create')
+            this.form[this.method](this.action)
                 .then(response => alert('All ok'));
         }
     }
 };
-
-</script>

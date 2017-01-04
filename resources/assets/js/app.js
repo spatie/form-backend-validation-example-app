@@ -13,7 +13,7 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('validated-form', require('./components/ValidatedForm.vue'));
+Vue.component('validated-form', require('./components/ValidatedForm'));
 
 const app = new Vue({
     el: '#app'
