@@ -24,7 +24,7 @@
                                     <label class="label--required" for="name">
                                         Name
                                     </label>
-                                    <input type="text" id="name" name="name" required
+                                    <input type="text" id="name" name="name"
                                            :class="{ '-invalid': form.errors.has('name') }"
                                            v-model="form.name">
                                     <div class="alert--error -small -for-field"
@@ -34,7 +34,7 @@
 
                                 <div class="h-margin-vertical">
                                     <label class="label--required" for="description">Description</label>
-                                    <input type="text" id="description" name="description" required
+                                    <input type="text" id="description" name="description"
                                            :class="{ '-invalid': form.errors.has('description') }"
                                            v-model="form.description">
                                     <div class="alert--error -small -for-field"
