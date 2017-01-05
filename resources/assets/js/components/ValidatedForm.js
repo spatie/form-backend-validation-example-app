@@ -22,12 +22,12 @@ export default {
         },
 
         displaySuccessMessage(message) {
-            this.messageClass = 'success';
+            this.messageClass = 'alert--success';
             this.message = message;
         },
 
         displayErrorMessage(message) {
-            this.messageClass = 'error';
+            this.messageClass = 'alert--error';
             this.message = message;
         },
 

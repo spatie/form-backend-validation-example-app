@@ -1,9 +1,9 @@
+@import 'node_modules/spatie-scss/spatie';
 
-// Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-
-// Variables
-@import "variables";
-
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+.alert.-for-field {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 !important;
+  background: none !important;
+}
