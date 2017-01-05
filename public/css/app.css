@@ -659,13 +659,13 @@ textarea {
 input:hover,
 .input:hover,
 textarea:hover {
-  border-color: #bbb3ac !important;
+  border-color: #bbb3ac;
 }
 
 input:focus,
 .input:focus,
 textarea:focus {
-  border-color: #2cb0de !important;
+  border-color: #2cb0de;
   outline: 0;
 }
 
@@ -673,6 +673,14 @@ input.-invalid,
 .input.-invalid,
 textarea.-invalid {
   border-color: #e83134;
+}
+
+input.-invalid:hover, input.-invalid:focus,
+.input.-invalid:hover,
+textarea.-invalid:hover,
+.input.-invalid:focus,
+textarea.-invalid:focus {
+  border-color: #a32324;
 }
 
 input[type=checkbox],

@@ -3720,9 +3720,9 @@ sparkles@^1.0.0:
   version "1.0.0"
   resolved "https://npm.spatie.be/sparkles/-/sparkles-1.0.0.tgz#1acbbfb592436d10bbe8f785b7cc6f82815012c3"
 
-spatie-scss@^0.10.1:
-  version "0.10.1"
-  resolved "https://npm.spatie.be/spatie-scss/-/spatie-scss-0.10.1.tgz#06ecda08b2a90d91fda60024ab220310ae52c726"
+spatie-scss@^0.10.3:
+  version "0.10.3"
+  resolved "https://npm.spatie.be/spatie-scss/-/spatie-scss-0.10.3.tgz#043bf8c585a325403469c3629c4c5cd64268d33b"
   dependencies:
     avalanche-css "^1.2.0"
     normalize-css "^2.3.1"
