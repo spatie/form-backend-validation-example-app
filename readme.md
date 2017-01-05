@@ -3,7 +3,11 @@
 
 This repo contains an example implementation of [spatie/form-backend-validation](https://github.com/spatie/form-backend-validation).
 
-Clone and use it like any other Laravel app. 
+![Screenshot](https://raw.githubusercontent.com/spatie/form-backend-validation-example-app/master/public/images/screenshot.png)
+
+## Installation
+
+Clone it and standing in the base directory of the app perform there commands:
 
 1. `cp .env.example .env`
 2. `touch database/database.sqlite`
@@ -11,7 +15,7 @@ Clone and use it like any other Laravel app.
 4. `yarn` (or `npm install`)
 5. `gulp`
 
-On the `/` there is a form is powered by [spatie/form-backend-validation](https://github.com/spatie/form-backend-validation)
+On the `/` of the site there is a form is powered by [spatie/form-backend-validation](https://github.com/spatie/form-backend-validation) for you to toy around with.
 
 ## Postcardware
 
