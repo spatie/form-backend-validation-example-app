@@ -1,4 +1,5 @@
-@import 'node_modules/spatie-scss/spatie';
+@import 'node_modules/@spatie/scss/settings';
+@import 'node_modules/@spatie/scss/styles';
 
 .alert.-for-field {
   position: absolute;

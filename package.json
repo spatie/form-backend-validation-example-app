@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "form-backend-validation": "^0.0.4",
-    "spatie-scss": "^0.10.3"
+    "@spatie/scss": "^1.0.0"
   }
 }
