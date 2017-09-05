@@ -7,15 +7,17 @@ This repo contains an example implementation of [spatie/form-backend-validation]
 
 ## Installation
 
-Clone it and standing in the base directory of the app perform there commands:
+Clone it and standing in the base directory of the app perform these commands:
 
 1. `cp .env.example .env`
 2. `touch database/database.sqlite`
-3. `php artisan migrate`
-4. `yarn` (or `npm install`)
-5. `gulp`
+3. `composer install`
+4. `php artisan migrate`
+5. `yarn` (or `npm install`)
+6. `gulp`
+7. `php artisan serve`
 
-On the `/` of the site there is a form is powered by [spatie/form-backend-validation](https://github.com/spatie/form-backend-validation) for you to toy around with.
+On the `/` of the site there is a form which is powered by [spatie/form-backend-validation](https://github.com/spatie/form-backend-validation) for you to toy around with.
 
 ## Credits
 
